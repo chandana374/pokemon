@@ -71,7 +71,7 @@ export default function HomeWithSuspense(props: {
   searchParams: Promise<RawSearchParams>;
 }) {
   return (
-    <Suspense fallback={<p className="p-6">Loading Pokémon…</p>}>
+    <Suspense fallback={<p className="p-6">Loading Pokemon…</p>}>
       <Home {...props} />
     </Suspense>
   );

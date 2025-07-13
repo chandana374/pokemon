@@ -1,9 +1,12 @@
+import { ReactNode } from "react";
+
 export interface Pokemon {
   name: string;
   url: string;
 }
 
 export interface PokemonDetails {
+  base_experience: ReactNode;
   name: string;
   sprites: {
     front_default: string;
